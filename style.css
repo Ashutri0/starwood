@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    border-top: 1px solid transparent;
+    background-color: rgb(240, 174, 174);
+}
+#main #main1{
+    width: 60%;
+    min-height: 60vh;
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    transform: translate(-65%,-75%);
+    background-image: url(img6.jpg);
+    background-size: cover;
+    border-radius: 60px;
+    background-position: center;
+}
+#main #nav{
+    width: 100%;
+    min-height: 10vh;
+    padding: 10px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main #nav #nav1{
+    width: 20%;
+    min-height: inherit;
+    padding: 5px;
+    
+}
+#main #nav #nav1 .head{
+    width: 100%;
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main #nav #nav1 .head .l1{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(star.png);
+    background-size: cover;
+    background-position: center;
+}
+#main #nav #nav1 .head .l2{
+    width: 60%;
+    min-height: inherit;
+    
+}
+#main #nav #nav1 .head .l2 .l21{
+    width: 100%;
+    min-height: 50%;
+    color:black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Ghost factory;
+}
+#main #nav #nav1 .head .l2 .l22{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Megapoliscape;
+    background-color:white;
+    border-radius: 20px;
+}
+#main  #nav #nav2{
+    width: 60%;
+    min-height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px;
+}
+#main #nav #nav2 .a{
+    width: 5%;
+    min-height: inherit;
+    color: white;
+    font-size: 20px;
+    font-family: Megapoliscape;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+#main #nav #nav2 .b{
+    width: 15%;
+    min-height: inherit;
+    color: white;
+    font-size: 10px;
+    font-family: Megapoliscape;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#main #nav #nav2 .c{
+    width: 15%;
+    min-height: inherit;
+    color: white;
+    font-size: 10px;
+    font-family: Megapoliscape;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#main #nav #nav2 .d{
+    width: 15%;
+    min-height: inherit;
+    color: white;
+    font-size: 10px;
+    font-family: Megapoliscape;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#main #nav #nav2 .e{
+    width: 15%;
+    min-height: inherit;
+    color: white;
+    font-size: 10px;
+    font-family: Megapoliscape;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#main #nav #nav2 .f{
+    width: 15%;
+    min-height: inherit;
+    color:black;
+    background-color: white;
+    border-radius:  35px ;
+    font-size: 8px;
+    font-family: Megapoliscape;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}  
+#main #heading{
+    position: absolute;
+    top:40%;
+    left: 50px;
+    padding: 10px;
+    width: 30%;
+    min-height: 40vh;
+}
+#main #heading .topic{
+    font-size: 20px;
+    width: 100%;
+    min-height: 25vh;
+   margin-top: 5px;
+    color: white;
+    font-family: Extros backstage ;
+}
+#main #heading .topic .topic1{
+    font-size: 20px;
+    display: flex;
+    letter-spacing: 30px;
+    justify-content: center;
+    align-items: center;
+    color:rgb(243, 106, 129);
+    margin-left: 30px;
+    font-family: extros backstage;
+}
+#main #heading .topic .topic2{
+    font-size: 30px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+    letter-spacing: 30px;
+    align-items: flex-end;
+    color: white;
+    font-family: extros backstage;
+}
+#main #heading .para {
+    font-size: 8px;
+    width: 100%;
+    font-family: megapoliscape;
+    min-height: 15vh;
+    color: rgb(243, 106, 129);
+}
+#main #heading .para>h2{
+    margin-left: 80px;
+    font-size: 10px;
+    color: rgb(243, 106, 129);
+}
+#main #heading .para .para1{
+    font-size: 10px;
+    width: 100%;
+    color: rgb(243, 106, 129);
+    min-height: 5vh;
+    font-family: gilroy;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main #heading .para .para2{
+    width: 100%;
+    min-height: 3vh;
+    font-size: 15px;
+    font-family: gilroy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(243, 106, 129);
+}
+#main #bottom{
+    width: 50%;
+    min-height: 10vh;
+    position: absolute;
+    bottom: 10px;
+    left: 650px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main #bottom .b1{
+    width: 12px;
+    min-height: 12px;
+    border-radius: 50px;
+    background-color: white;
+}
+#main #bottom .b2{
+    width: 10px;
+    min-height: 10px;
+    border-radius: 50px;
+    background-color: white;
+}
+#main #bottom .b3{
+    width: 8px;
+    min-height: 8px;
+    border-radius: 50px;
+    background-color: white;
+}
+#main #bottom .b4{
+    width: 6px;
+    min-height:6px;
+    border-radius: 50px;
+    background-color: white;
+}
+#main #bottom .b5{
+    width: 4px;
+    min-height: 4px;
+    border-radius: 50px;
+    background-color: white;
+}
+#main #bottom .b6{
+    width: 2px;
+    min-height: 2px;
+    border-radius: 50px;
+    background-color: white;
+}
+#main2{
+    width: 100%;
+    min-height: 100vh;
+    background-color:black;
+}
+#main2 #top{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(img7.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main2 #top .border{
+    width: 97%;
+    min-height: 46vh;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#main2 #top .border .menu{
+    width: 20%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+#main2 #top .border .menu .menu1{
+    width: 60%;
+    height: 100%;
+    min-height: inherit;
+}
+#main2 #top .border .menu .menu1 .menu11{
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: 20px;
+    font-family: megapoliscape;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main2 #top .border .menu .menu1 .menu12{
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: 20px;
+    font-family: megapoliscape;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main2 #top .border .menu .food{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(img10.jpg);
+    background-size: cover;
+    background-position: right;
+}
+#main2 #down{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(img11.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main2 #down .border1{
+    width: 97%;
+    min-height: 46vh;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#main2 #down .border1 .drinks{
+    width: 20%;
+    min-height: 10vh;
+    font-size: 30px;
+    font-family: megapoliscape;
+    color: rgb(208, 211, 192);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    #main{
+        width: 100%;
+        height: 100vh;
+        
+    }
+    #main #main1{
+        width: 100%;
+        min-height: 30vh;
+        margin-left: -36.5px;
+        margin-top: 25px;
+    }
+    #main #nav{
+        width: 100%;
+        min-height: 10vh;
+
+    }
+    #main #nav #nav1{
+        width: 100%;
+        min-height: inherit;
+    }
+    #main #nav #nav1 .head{
+        width: 100%;
+        min-height: inherit;
+    }
+    #main #nav #nav1 .head .l1{
+        width: 30%;
+        min-height: inherit;
+    }
+    #main #nav #nav1 .head .l2{
+        width: 70%;
+        min-height: inherit;
+        
+    }
+    #main #nav #nav1 .head .l2 .l21 h2{
+        font-size: 40px;
+        margin-left:20px;
+    }
+    #main #nav #nav1 .head .l2 .l22{
+        width: 85%;
+    }
+    #main #nav #nav1 .head .l2 .l22 h4{
+        margin-right: 10px;
+    }
+    #main #nav #nav2{
+        display: none;
+    }
+    #main #heading .topic .topic1 h1{
+        font-size: 20px;
+        margin-left: 140px;
+        margin-top: -77px;
+    }
+    #main #heading .topic .topic2 h1{
+        font-size: 20px;
+        margin-left: 130px;
+        margin-top: -55px;
+    }
+    #main #heading .para{
+        width: 100%;
+        height: 20%;
+        flex-direction: row;
+    }
+    #main #heading .para>h2{
+        font-size: 8px;
+        width: 300%;
+        margin-left: -2px;
+        margin-top: 78px;
+    }
+    #main #heading .para .para1{
+        width:300%;
+        height: 20%;
+        flex-direction: row;
+    }
+    #main #heading .para .para1 h3{
+        font-size: 16px;
+        margin-left: -30px;
+                
+    }
+    #main #heading .para .para2{
+        width: 300%;
+        height: 20%;
+        flex-direction: row;
+    }
+    #main #bottom{
+        display: none;
+    }
+    #main #heading .para .para2 h3{
+        font-size: 12px;
+        margin-left: -30px;
+        
+    }
+    #main2{
+        width: 100%;
+        height: 100vh;
+    }
+    #main2 #top{
+        width: 100%;
+        height: 50vh;
+    }
+    #main2 #down{
+        width: 100%;
+        height: 50vh;
+    }
+    #main2 #top .border .menu .food{
+        width: 119%;
+        margin-left: -193px;
+    }
+    #main2 #down .border1 .drinks h2{
+        font-size: 27px;
+        margin-left: -40px;
+    }
+}
